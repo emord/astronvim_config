@@ -20,6 +20,8 @@ return {
       return opts
     end,
   },
+  { "github/copilot.vim", enabled = true, lazy = false },
+  { "madox2/vim-ai", enabled = true, lazy = false },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
